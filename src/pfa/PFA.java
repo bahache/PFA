@@ -5,9 +5,9 @@
  */
 
 package pfa;
+
 import org.jdesktop.application.Application;
 import org.jdesktop.application.SingleFrameApplication;
-
 /**
  *
  * @author Compaq
@@ -17,7 +17,7 @@ public class PFA extends SingleFrameApplication{
      * At startup create and show the main frame of the application.
      */
     @Override protected void startup() {
-        show(new GererView(this));
+ //       show(new GererView(this));
     }
 
     /**

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE hibernate-mapping PUBLIC "-//Hibernate/Hibernate Mapping DTD 3.0//EN" "http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd">
+<hibernate-mapping>
+  <class name="pfa.Client" catalog="GestiondeStock" table="client"/>
+  <id name="cin" type="string" column="cin">
+      <generator class="identity"/>
+  </id>
+  <property name="nom" type="string" column="nom"/>
+  <property name="prenom" type="string" column="prenom"/>
+  <property name="tel" type="string" column="tel"/>
+  <property name="fax" type="string" column="fax"/>
+  <property name="adresse" type="string" column="adresse"/>
+  <property name="email" type="string" column="email"/>
+  
+</class>
+</hibernate-mapping>
