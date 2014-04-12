@@ -7,7 +7,7 @@
     <property name="hibernate.connection.url">jdbc:postgresql://localhost:5432/GestiondeStock</property>
     <property name="hibernate.connection.username">postgres</property>
     <property name="hibernate.connection.password">0000</property>
-
+    <property name="ze">ze</property>
     <mapping class="pfa.Client"/>
   </session-factory>
 </hibernate-configuration>
